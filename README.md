@@ -1,4 +1,3 @@
-
 print("Labdien! Šī programma jums palīdzēs apgūt pyton programmēšanas pamatus.Jums būs iespēja apgūt 5 dažādas tēmas un pēc tām izpildīt 10 jautājumu testu, lai pārbaudītu jūsu zināšanas!")
 print()
 atbilde=input("Vai vēlies sākt apgūt 1.tēmu?(Atbildi ar Jā un Nē):")
@@ -41,18 +40,70 @@ input("Vai tu vēlies pārbaudīt savas zināšanas ?(Atbildi tikai ar Jā un N�
 print()
 if atbilde=="Jā":
     print("Jautājumi:")
-input("1. Vai funkcija “print” ļauj lietotājam, pēc teksta ka parādās ekrānā, ierakstīt atbildi uz doto jautājumu/teikumu?:")
-input("2. Vai taisnība ka sazarotajā algaritmā var ievadīt nosacijumu un 2 komandas pēc tā?:")
-input("3.Vai taisnība ka mainīgie jāievieš pašās programmas beigās?:")
-input("4.Vai taisnība ka ciklā while tas tiek izpildīts tik ilgi, kamēr lietotājs neierasta atbildi kas atbilst dotam nosacijumam?:")
-input("5.Vai taisnība ka funkcija int noapaļo doto akaitli?:")
-input("6.Vai taisnība ka dažos gadījumos vienalga vai izvadīt tekstu ar funkciju input vai print?:")
-input("7.Vai taisnība ka izmantojot skaitļu funkciju Random*6 prorammma nekad neizvadīs saitli 6?:")
-input("8.Vai proramā var izmmantot 2 mainīos ar vienādu nosaukummu?:")
-input("9.Vai taisnība ka sazarotajā algaritmā, ja vērtība ir True, tad tiek izpildītas komandas pēc then?:")
-input("10.Vai Cikls for tiek izmantota, lai atkārtotu secību?:")
+
+vards=input("Ievadi savu vārdu:")
+correct = 0
+incorrect = 0
+ans=input("1. Vai funkcija “print” ļauj lietotājam, pēc teksta ka parādās ekrānā, ierakstīt atbildi uz doto jautājumu/teikumu?:")
+atb2=("Nē")
+if(ans==atb2):
+        correct = correct + 1
+else:
+        incorrect + 1
+ans2=input("2. Vai taisnība ka sazarotajā algoritmā var ievadīt nosacijumu un 2 komandas pēc tā?:")
+atb1=("Jā")
+if(ans==atb1):
+        correct = correct + 1
+else:
+        incorrect + 1
+ans3=input("3.Vai taisnība ka mainīgie jāievieš pašās programmas beigās?:")
+if(ans==atb2):
+        correct = correct + 1
+else:
+        incorrect + 1
+ans4=input("4.Vai taisnība ka ciklā while tas tiek izpildīts tik ilgi, kamēr lietotājs neierasta atbildi kas atbilst dotam nosacijumam?:")
+if(ans==atb1):
+        correct = correct + 1
+else:
+        incorrect + 1
+ans5=input("5.Vai taisnība ka funkcija int noapaļo doto akaitli?:")
+if(ans==atb2):
+        correct = correct + 1
+else:
+        incorrect + 1
+ans6=input("6.Vai taisnība ka dažos gadījumos vienalga vai izvadīt tekstu ar funkciju input vai print?:")
+if(ans==atb1):
+        correct = correct + 1
+else:
+        incorrect + 1
+ans7=input("7.Vai taisnība ka izmantojot skaitļu funkciju Random*6 prorammma nekad neizvadīs saitli 6?:")
+if(ans==atb1):
+        correct = correct + 1
+else:
+        incorrect + 1
+ans8=input("8.Vai proramā var izmmantot 2 mainīos ar vienādu nosaukummu?:")
+if(ans==atb2):
+        correct = correct + 1
+else:
+        incorrect + 1
+ans9=input("9.Vai taisnība ka sazarotajā algaritmā, ja vērtība ir True, tad tiek izpildītas komandas pēc then?:")
+if(ans==atb1):
+        correct = correct + 1
+else:
+        incorrect + 1
+ans10=input("10.Vai Cikls for tiek izmantota, lai atkārtotu secību?:")
+if(ans==atb1):
+        correct = correct + 1
+else:
+        incorrect + 1
+
+print()
+print("Apsveicu! Jūs esat pabeidzis apmācību. Jūs testā ieguvāt " + str(correct)  + " punktus no 10.")
+
+print()
 
 
 
 
-print("Apsveicu! Jūs esat pabeidzis apmācību. Jūs testā ieguvāt, , punktus no 10.")
+
+
